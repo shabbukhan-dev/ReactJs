@@ -1,0 +1,13 @@
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+}
+
+.gridContainer .gridItem{
+grid-column: span 4;
+border-radius: 10px;
+border: 1px solid #ebeef2;
+box-shadow: 0 1rem 3rem rgba(9, 16, 29, .08);
+padding: 1.25rem;
+}
